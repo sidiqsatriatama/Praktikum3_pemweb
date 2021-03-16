@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contoh Program JavaScript</title>
+</head>
+<script language="JavaScript">
+	function test() {
+		//Memberi Petunjuk berupa text dan mengisi nilai 
+		val1 = window.prompt("Nilai I : ")
+		val2 = window.prompt("Nilai II : ")
+
+		//Pengoperasian
+		document.write("<br>"+"val1 == val2"+"<br>")
+		document.write(val1==val2) //Nilai yang sama
+
+		document.write("<br>"+"val1 != val2"+"<br>")
+		document.write(val1!=val2) //Nilai yang Tidak sama
+
+		document.write("<br>"+"val1 &gt val2"+"<br>")
+		document.write(val1>val2) //Nilai val 1 lebih dari val 2
+
+		document.write("<br>"+"val1 &lt val2"+"<br>")
+		document.write(val1<val2) //Nilai val 1 kurang dari val 2
+	}
+</script>
+<body>
+	<!-- Button untuk memanggil function test -->
+	<input type="button" name="button1" value="Relational" onclick= test()>
+</body>
+</html>

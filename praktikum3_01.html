@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mengkonversi nilai angka menjadi nilai huruf</title>
+</head>
+<body>
+<script language="javascript">
+	var angka = prompt("Nilai (0-100):");
+	var huruf = "";
+	if (angka >= 0 , angka <= 40) 
+		huruf = "E";
+	else if (angka >= 41 , angka <= 55)
+		huruf = "D";
+	else if (angka >= 56 , angka <= 60)
+		huruf = "C";
+	else if (angka >= 61 , angka <= 65)
+		huruf = "BC";
+	else if (angka >= 66 , angka <= 70)
+		huruf = "B";
+	else if (angka >= 71 , angka <= 80)
+		huruf = "AB";
+	else
+		huruf = "A";
+	document.write("Huruf :" + huruf)
+</script>
+</body>
+</html>

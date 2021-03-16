@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contoh Program JavaScript</title>
+</head>
+<script language="JavaScript">
+	function tes() {
+		//Memasukan Nilai
+		val1 = window.prompt("Masukan Nilai (1-5) :")
+
+		//Menyesuaikan Masukan Nilai dengan case 
+		switch(val1){
+			case "1" : //jika Memasukan nilai 1 maka muncul isi dari case 1
+				document.write("Bilangan Satu")
+			break
+			case "2" : //jika Memasukan nilai 2 maka muncul isi dari case 2
+				document.write("Bilangan Dua")
+			break
+			case "3" : //jika Memasukan nilai 3 maka muncul isi dari case 3
+				document.write("Bilangan Tiga")
+			break
+			case "4" : //jika Memasukan nilai 4 maka muncul isi dari case 4
+				document.write("Bilangan Empat")
+			break
+			case "5" : //jika Memasukan nilai 5 maka muncul isi dari case 5
+				document.write("Bilangan Lima")
+			break
+
+			default: //jika Memasukan nilai yang tidak ada pada case
+				document.write("Bilangan Lainnya")
+		}
+	}
+</script>
+<body>
+	<!-- Button untuk memanggil function test -->
+	<input type="button" name="button1" value="Switch" onclick= tes()>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator</title>
+</head>
+<body>
+		Masukkan bilangan pertama : <input type="text" id="one" value="0">
+		Masukkan bilangan Kedua : <input type="text" id="two" value="0">
+		<input type="button" VALUE = "+" onclick="plus()">
+		<input type="button" VALUE = "-" onclick="minus()">
+		<input type="button" VALUE = "x" onclick="kali()">
+		<input type="button" VALUE = ":" onclick="bagi()">
+		<input type="button" VALUE = "%" onclick="modulus()">
+
+<script language="javascript">
+	
+	function plus() {
+		var one = +document.getElementById("one").value;
+		var two = +document.getElementById("two").value;
+   		alert(one+two);
+	}
+	function minus() {
+		var one = +document.getElementById("one").value;
+		var two = +document.getElementById("two").value;
+   		alert(one-two);
+	}
+	function kali() {
+		var one = +document.getElementById("one").value;
+		var two = +document.getElementById("two").value;
+   		alert(one*two);
+	}
+	function bagi() {
+		var one = +document.getElementById("one").value;
+		var two = +document.getElementById("two").value;
+   		alert(one/two);
+	}
+	function modulus() {
+		var one = +document.getElementById("one").value;
+		var two = +document.getElementById("two").value;
+   		alert(one%two);
+	}
+</script>
+</body>
+</html>
